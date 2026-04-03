@@ -9,6 +9,16 @@ import operatingTableImg from "@/assets/products/operating-table.jpg";
 import operatingMicroscopeImg from "@/assets/products/operating-microscope.jpg";
 import trialLensImg from "@/assets/products/trial-lens.jpg";
 import chairStandImg from "@/assets/products/chair-stand.jpg";
+import visualFieldImg from "@/assets/products/visual-field-analyzer.jpg";
+import automatedLensmeterImg from "@/assets/products/automated-lensmeter.jpg";
+import glazingMachineImg from "@/assets/products/glazing-machine.jpg";
+import cataractSetImg from "@/assets/products/cataract-set.jpg";
+import eyeModelImg from "@/assets/products/eye-model.jpg";
+import vaChartImg from "@/assets/products/va-chart.jpg";
+import universalFramesImg from "@/assets/products/universal-frames.jpg";
+import pachymeterImg from "@/assets/products/pachymeter.jpg";
+import instrumentTableImg from "@/assets/products/instrument-table.jpg";
+import keelerOphthalmoscopeImg from "@/assets/products/keeler-ophthalmoscope.jpg";
 
 const products = [
   {
@@ -44,6 +54,46 @@ const products = [
     description: "The backbone of every great refraction. Silky-smooth lens switching and precision cross-cylinder controls make subjective refraction faster and more repeatable. Ergonomic counterbalance design means your optometrist stays sharp through a full day of exams.",
   },
   {
+    name: "Visual Field Analyzer",
+    model: "VF‑900",
+    category: "Diagnostic",
+    price: 3800000,
+    image: visualFieldImg,
+    description: "Detect glaucoma and neurological deficits before symptoms appear. The VF‑900 maps your patient's full peripheral vision with automated static and kinetic perimetry. Built-in progression analysis tracks field loss over time — essential for glaucoma management and medico-legal documentation.",
+  },
+  {
+    name: "Automated Lensmeter",
+    model: "LM‑260",
+    category: "Diagnostic",
+    price: 850000,
+    image: automatedLensmeterImg,
+    description: "Verify prescriptions in seconds, not minutes. The LM‑260 reads sphere, cylinder, axis, add power, prism, and UV transmission automatically — eliminating manual alignment errors. Its colour touch-screen and one-button operation make it the fastest way to check incoming lenses and existing spectacles.",
+  },
+  {
+    name: "Illuminated VA Chart",
+    model: "VA‑LED",
+    category: "Diagnostic",
+    price: 120000,
+    image: vaChartImg,
+    description: "Consistent, standardised acuity testing every time. LED back-illumination delivers uniform brightness across the entire chart — no hot spots, no shadows. LogMAR and Snellen optotypes on one panel with red-green duochrome and contrast sensitivity targets built in.",
+  },
+  {
+    name: "Pachymeter",
+    model: "PM‑550",
+    category: "Diagnostic",
+    price: 1950000,
+    image: pachymeterImg,
+    description: "Corneal thickness in one touch. The PM‑550 ultrasonic pachymeter delivers accurate, repeatable CCT readings critical for accurate IOP correction and refractive surgery screening. Compact, portable design with built-in statistical analysis for quick pre-op and glaucoma workups.",
+  },
+  {
+    name: "Keeler Ophthalmoscope",
+    model: "KO‑Pro",
+    category: "Diagnostic",
+    price: 450000,
+    image: keelerOphthalmoscopeImg,
+    description: "The gold standard in direct ophthalmoscopy. Keeler's precision optics and halogen-bright illumination reveal disc detail, vessel changes, and macular pathology with unmatched clarity. Lightweight aluminium body and easy-grip handle reduce fatigue during extended fundus examinations.",
+  },
+  {
     name: "Surgical Operating Table",
     model: "OP‑T Pro",
     category: "Surgical",
@@ -60,6 +110,14 @@ const products = [
     description: "See every layer, every time. Coaxial illumination and motorized zoom deliver the depth of field and clarity that cataract, vitreoretinal, and corneal procedures demand. Fine-focus control and ergonomic eyepieces reduce surgeon fatigue.",
   },
   {
+    name: "Cataract Surgery Set",
+    model: "CS‑18",
+    category: "Surgical",
+    price: 750000,
+    image: cataractSetImg,
+    description: "Everything your surgeon needs in one sterilisation-ready tray. 18-piece premium stainless-steel instrument set includes capsulorrhexis forceps, phaco choppers, lens hooks, IOL folders, and irrigating cannulae. Autoclavable silicone tray keeps instruments organised and protected between cases.",
+  },
+  {
     name: "Trial Lens Set",
     model: "TL‑200",
     category: "Consumables",
@@ -68,12 +126,44 @@ const products = [
     description: "Everything you need in one case. 200 precision-ground lenses — full sphere, cylinder, prism, and accessory range — organized in a durable aluminium case. The industry-standard choice for new or established practices.",
   },
   {
+    name: "Universal Trial Frames",
+    model: "UTF‑100",
+    category: "Consumables",
+    price: 45000,
+    image: universalFramesImg,
+    description: "Precision refraction starts with the right frame. Fully adjustable PD, temple length, and nose bridge fit every face shape comfortably. Lightweight alloy construction with spring-loaded lens cells holds trial lenses securely — no wobble, no drift during subjective refraction.",
+  },
+  {
+    name: "Eye Anatomical Model",
+    model: "EM‑6X",
+    category: "Accessories",
+    price: 35000,
+    image: eyeModelImg,
+    description: "Show patients exactly what you see. This 6× enlarged, hand-painted anatomical eye model separates into six parts — cornea, iris/ciliary body, lens, vitreous, retina, and sclera. Perfect for patient education, student training, and waiting-room display.",
+  },
+  {
+    name: "Glazing Machine",
+    model: "GM‑Pro",
+    category: "Accessories",
+    price: 280000,
+    image: glazingMachineImg,
+    description: "Shape and edge lenses in-house, on demand. The GM‑Pro hand grinding and cutting machine handles CR‑39, polycarbonate, and glass with precision diamond wheels. Compact bench-top design with built-in water coolant lets you offer same-day spectacle fitting without outsourcing.",
+  },
+  {
     name: "Chair & Stand Unit",
     model: "CS‑400",
     category: "Accessories",
     price: 950000,
     image: chairStandImg,
     description: "Transform your exam lane in one upgrade. Electric recline, adjustable arm rests, and an integrated instrument stand with built-in power strip — everything in a single, space-saving footprint.",
+  },
+  {
+    name: "Instrument Table",
+    model: "IT‑200",
+    category: "Accessories",
+    price: 320000,
+    image: instrumentTableImg,
+    description: "Mobile, height-adjustable, and built to last. The IT‑200 motorised instrument table rolls smoothly on lockable castors and supports up to 50 kg — ideal for mounting autorefractors, lensmeters, or tonometers. Clean cable management keeps your clinic looking professional.",
   },
 ];
 
