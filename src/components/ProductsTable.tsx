@@ -123,7 +123,7 @@ const ProductCard = ({ product }: { product: typeof products[0] }) => {
         <div className="mt-auto pt-3 border-t border-border/60 flex items-center justify-between gap-2">
           <div>
             <p className="text-[10px] text-muted-foreground font-medium">From</p>
-            <p className="text-base font-extrabold text-foreground font-display">{formatPrice(product.price)}</p>
+            <p className="text-base font-semibold text-foreground font-display">{formatPrice(product.price)}</p>
           </div>
           <a
             href={`https://wa.me/2349034584484?text=${encodeURIComponent(`Hi Yorlad, I'm interested in the ${product.name} (${product.model}). Please send me a quote.`)}`}
