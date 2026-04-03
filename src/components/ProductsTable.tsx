@@ -2,7 +2,9 @@ import { useState } from "react";
 import { ChevronDown, ArrowRight, Sparkles } from "lucide-react";
 
 import slitLampImg from "@/assets/products/slit-lamp.jpg";
-import autorefractorImg from "@/assets/products/autorefractor.jpg";
+import autorefractorKeratometerImg from "@/assets/products/autorefractor-keratometer.jpg";
+import autorefractorRm960Img from "@/assets/products/autorefractor-rm960.jpg";
+import digitalVaChartImg from "@/assets/products/digital-va-chart.jpg";
 import tonometerImg from "@/assets/products/tonometer.jpg";
 import phoropterImg from "@/assets/products/phoropter.jpg";
 import trialLensImg from "@/assets/products/trial-lens.jpg";
